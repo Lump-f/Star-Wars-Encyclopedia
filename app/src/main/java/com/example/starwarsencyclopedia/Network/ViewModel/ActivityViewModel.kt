@@ -9,11 +9,12 @@ class ActivityViewModel: MyViewModel() {
     val items = MutableLiveData<Event<Response>>()
 
     fun sendRequest(query: String, page: Int) {
-        sendRequest(items) {
+        sRequest(items) {
             api.request(
 //                requestParameter = query,
                 page = page
             )
         }
+
     }
 }

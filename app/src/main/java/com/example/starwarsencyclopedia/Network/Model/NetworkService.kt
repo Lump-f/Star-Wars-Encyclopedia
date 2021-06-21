@@ -2,15 +2,14 @@ package com.example.starwarsencyclopedia.Network.Model
 
 import com.example.starwarsencyclopedia.Network.SWApi
 import retrofit2.Retrofit
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
+@Deprecated("SWApi companion object instead")
 object NetworkService {
     fun create(): SWApi {
         return Retrofit.Builder()
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-            .addConverterFactory(GsonConverterFactory.create())
             .baseUrl("https://swapi.dev/api/")
+            .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(SWApi::class.java)
     }

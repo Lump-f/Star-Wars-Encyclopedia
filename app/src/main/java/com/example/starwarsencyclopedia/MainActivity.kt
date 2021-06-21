@@ -29,11 +29,13 @@ open class MainActivity : AppCompatActivity() {
     private fun test() {
         activityViewModel.items.observe(this, Observer {
             when (it.status) {
+                Status.SUCCESS -> {
+                    var res = it.data
+
+                }
 //                Status.LOADING ->
-//                Status.SUCCESS ->
 //                Status.ERROR ->
             }
-            var res = it.data
         })
     }
 

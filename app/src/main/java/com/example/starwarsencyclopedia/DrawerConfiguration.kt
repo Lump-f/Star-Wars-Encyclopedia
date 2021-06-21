@@ -66,7 +66,7 @@ class DrawerConfiguration : MainActivity() {
     private fun setClickListenerInDrawerList() {
         mDrawerList.onItemClickListener = OnItemClickListener { _, _, position, _ ->
             when(position) {
-                1 -> sendRequest("films", 1)
+                0 -> sendRequest("films", 1)
             }
         }
     }
