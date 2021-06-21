@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\drawer_list_item.xml",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_list.xml",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_info.xml",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\fragment_info.xml"
+    }
+]

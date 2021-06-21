@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b30f2b5-ed0b-4b83-8328-924484d52c20" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@871HADTDWVCAB]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="navigationResourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tDWtsJ68rBDPWPO1pkTtOrQHMH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Users/butyn/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.1.1/d95f7d9cd7d95cc0c038bbcf9c65f521b56fee55/drawerlayout-1.1.1-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java_SELECTED" value="DrawerLayout" />
+    <property name="android-custom-viewC:/Users/butyn/AppData/Local/Android/sdk/sources/android-30/android/widget/AbsListView.java_SELECTED" value="AbsListView" />
+    <property name="android-custom-viewC:/Users/butyn/AppData/Local/Android/sdk/sources/android-30/android/widget/AdapterView.java_SELECTED" value="AdapterView" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Star-Wars-Encyclopedia-Project" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.723611160">
+      <recent name="com.example.starwarsencyclopedia" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.starwarsencyclopedia.Network.ViewModel" />
+    </key>
+    <key name="android.template.-153260745">
+      <recent name="com.example.starwarsencyclopedia" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programms\Programming\AndroidProgramms\StarWarsEncyclopedia\app\src\main\res\drawable" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.example.starwarsencyclopedia.Network" />
+      <recent name="com.example.starwarsencyclopedia" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Star_Wars_Encyclopedia.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b30f2b5-ed0b-4b83-8328-924484d52c20" name="Default Changelist" comment="" />
+      <created>1622304358301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622304358301</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Request works">
+      <created>1624313787987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624313787987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Request works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Request works" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="121" key="#Customize_Data_Views" timestamp="1623946429201">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="463" y="121" key="#Customize_Data_Views/0.0.1536.834@0.0.1536.834" timestamp="1623946429201" />
+    <state x="286" y="163" key="#PSD" timestamp="1623927237385">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="286" y="163" key="#PSD/0.0.1536.834@0.0.1536.834" timestamp="1623927237385" />
+    <state x="560" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1624311935382">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="560" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1624311935382" />
+    <state x="442" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1624310900834">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="442" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1624310900834" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624116860992">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1624116860992" />
+    <state x="506" y="209" width="525" height="416" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1624119662519">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="506" y="209" width="525" height="416" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1624119662519" />
+    <state x="524" y="120" key="#xdebugger.evaluate" timestamp="1623946408352">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="524" y="120" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1623946408352" />
+    <state x="349" y="172" key="AndroidCreateResourceFileDialog" timestamp="1623947705087">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="172" key="AndroidCreateResourceFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1623947705087" />
+    <state x="614" y="225" key="AndroidCreateXmlResourceDialog" timestamp="1623931301056">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="614" y="225" key="AndroidCreateXmlResourceDialog/0.0.1536.834@0.0.1536.834" timestamp="1623931301056" />
+    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1624313787138">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624313787138" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1624298651278">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1624298651278" />
+    <state width="1493" height="356" key="GridCell.Tab.0.bottom" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state width="1493" height="356" key="GridCell.Tab.0.center" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state width="1493" height="356" key="GridCell.Tab.0.left" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state width="1493" height="356" key="GridCell.Tab.0.right" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state width="1493" height="356" key="GridCell.Tab.1.bottom" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state width="1493" height="356" key="GridCell.Tab.1.center" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state width="1493" height="356" key="GridCell.Tab.1.left" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state width="1493" height="356" key="GridCell.Tab.1.right" timestamp="1624314064955">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624314064955" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1624314301257">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624314301257" />
+    <state width="776" height="424" key="XDebugger.FullValuePopup" timestamp="1624128884510">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="776" height="424" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1624128884510" />
+    <state x="93" y="93" width="1350" height="648" key="dock-window-1" timestamp="1624275657077">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1624275657077" />
+    <state x="93" y="93" width="1350" height="648" key="dock-window-2" timestamp="1624275657077">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="dock-window-2/0.0.1536.834@0.0.1536.834" timestamp="1624275657077" />
+    <state x="611" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1624312539839">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="611" y="189" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1624312539839" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1624311112892">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1624311112892" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/starwarsencyclopedia/Network/ViewModel/MyViewModel.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/starwarsencyclopedia/MainActivity.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/starwarsencyclopedia/Network/ViewModel/MyViewModel.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="retrofit2.Response" memberName="body" />
+        <PinnedItemInfo parentTag="com.example.starwarsencyclopedia.Network.ViewModel.ActivityViewModel" memberName="shadow$_klass_" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="this.shadow$_klass_" custom="retrofit2.Callback" />
+        <watch expression="(it as Event).data" language="kotlin" custom="import com.example.starwarsencyclopedia.Network.Event" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

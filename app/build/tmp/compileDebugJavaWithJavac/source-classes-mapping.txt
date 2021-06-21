@@ -1,0 +1,10 @@
+com/example/starwarsencyclopedia/databinding/FragmentListBinding.java
+ com.example.starwarsencyclopedia.databinding.FragmentListBinding
+com/example/starwarsencyclopedia/databinding/FragmentInfoBinding.java
+ com.example.starwarsencyclopedia.databinding.FragmentInfoBinding
+com/example/starwarsencyclopedia/databinding/DrawerListItemBinding.java
+ com.example.starwarsencyclopedia.databinding.DrawerListItemBinding
+com/example/starwarsencyclopedia/databinding/ActivityMainBinding.java
+ com.example.starwarsencyclopedia.databinding.ActivityMainBinding
+com/example/starwarsencyclopedia/BuildConfig.java
+ com.example.starwarsencyclopedia.BuildConfig

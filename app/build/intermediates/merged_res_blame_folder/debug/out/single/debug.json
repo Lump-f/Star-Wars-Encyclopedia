@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_info.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_main.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_drawer_list_item.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_activated_background.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\drawable\\activated_background.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawer_menu.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_list.xml.flat",
+        "source": "D:\\Programms\\Programming\\AndroidProgramms\\StarWarsEncyclopedia\\app\\src\\main\\res\\layout\\fragment_list.xml"
+    }
+]
