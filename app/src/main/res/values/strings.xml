@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Star Wars Encyclopedia</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="drawer_strings">
+        <item>Films</item>
+        <item>People</item>
+        <item>Planets</item>
+        <item>Species</item>
+        <item>Starships</item>
+        <item>Vehicles</item>
+    </string-array>
+
+</resources>
