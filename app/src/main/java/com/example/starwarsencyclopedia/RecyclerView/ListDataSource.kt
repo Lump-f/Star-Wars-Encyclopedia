@@ -7,6 +7,6 @@ class ListDataSource {
     var data: ArrayList<Response.Item?> = ArrayList()
 
     fun sendData(newData: ArrayList<Response.Item?>?) {
-        newData?.let { data.addAll(it) }
+        data.addAll(newData!!)
     }
 }
