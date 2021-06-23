@@ -20,7 +20,7 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolde
 
         fun updateWith(item: Response.Item?) {
             this.item = item
-            if (item?.name != null) {
+            if (item?.name != null) { // Костыль
                 myItemView.itemName.text = item.name
             } else {
                 myItemView.itemName.text = item?.title
