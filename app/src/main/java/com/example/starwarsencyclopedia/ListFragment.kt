@@ -9,7 +9,6 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.starwarsencyclopedia.Network.Status
@@ -17,14 +16,12 @@ import com.example.starwarsencyclopedia.Network.ViewModel.ActivityViewModel
 import com.example.starwarsencyclopedia.RecyclerView.RecyclerViewAdapter
 import kotlinx.android.synthetic.main.fragment_list.*
 
-
 class ListFragment : Fragment() {
-
     private lateinit var mDrawerToggle: ActionBarDrawerToggle
 
     private lateinit var activityViewModel: ActivityViewModel
 
-    private var adapter = RecyclerViewAdapter()
+    private var recyclerViewAdapter = RecyclerViewAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,8 +52,8 @@ class ListFragment : Fragment() {
         LinearLayoutManager(context).orientation = LinearLayoutManager.VERTICAL
 
         list.apply {
-            this.layoutManager = LinearLayoutManager(context)
-            this.adapter = adapter
+            layoutManager = LinearLayoutManager(context)
+            adapter = recyclerViewAdapter
         }
     }
 
@@ -65,10 +62,13 @@ class ListFragment : Fragment() {
     }
 
     private fun test() {
-        activityViewModel.items.observe(this, Observer {
+        activityViewModel.items.observe(this, {
             when (it.status) {
                 Status.SUCCESS -> {
-                    adapter.sendData(it.data?.results)
+                    it.data?.results?.let { array ->
+                        recyclerViewAdapter.dataSource = array.toList()
+                    }
+                    recyclerViewAdapter.notifyDataSetChanged()
                 }
 //                Status.LOADING ->
 //                Status.ERROR ->
