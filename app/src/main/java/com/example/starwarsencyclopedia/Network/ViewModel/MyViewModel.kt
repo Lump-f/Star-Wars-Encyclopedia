@@ -12,26 +12,10 @@ abstract class MyViewModel : ViewModel() {
 
     var api: SWApi = SWApi.create()
 
-    fun sRequest(
+    fun sendRequest(
         liveData: MutableLiveData<Event<Response>>,
         request: () -> Call<Response>
-//        request: suspend () -> ResponseWrapper<T>
-
     ) {
-
-//        this.viewModelScope.launch() {
-//            try {
-//                val response = request.invoke()
-//                if (response.data != null) {
-//                    liveData.postValue(Event.success(response.data))
-//                } else if (response.error != null) {
-//                    liveData.postValue(Event.error(response.error))
-//                }
-//            } catch (e: Exception) {
-//                e.printStackTrace()
-//                liveData.postValue(Event.error(null))
-//            }
-//        }
 
         liveData.postValue(Event.loading())
 
@@ -43,7 +27,6 @@ abstract class MyViewModel : ViewModel() {
                     response: retrofit2.Response<Response>
                 ) {
                     if (response.isSuccessful) {
-                        val sss = response.body()
                         liveData.postValue(Event.success(response.body()))
                     } else {
                         liveData.postValue(Event.error(response.errorBody()))

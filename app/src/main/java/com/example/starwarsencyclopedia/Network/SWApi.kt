@@ -6,16 +6,16 @@ import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface SWApi {
 
-    @GET("films")
-    fun request(
-//    suspend fun request(
-//        @Query(".") requestParameter: String,
+    @GET("{query}")
+    fun universalGet(
+        @Path("query") query: String?,
         @Query("page") page: Int
-    ): Call<Response>
+    ) : Call<Response>
 
     companion object Factory {
         fun create(): SWApi {
@@ -28,8 +28,3 @@ interface SWApi {
         }
     }
 }
-
-//interface SimpleService {
-//    @GET("/simple/{id}")
-//    fun getSimple(@Path("id") id: String?): Call<Response>?
-//}

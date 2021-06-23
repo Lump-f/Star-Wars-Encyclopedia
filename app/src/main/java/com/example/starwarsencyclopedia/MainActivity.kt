@@ -2,6 +2,7 @@ package com.example.starwarsencyclopedia
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.starwarsencyclopedia.Network.Status
@@ -9,7 +10,6 @@ import com.example.starwarsencyclopedia.Network.ViewModel.ActivityViewModel
 
 open class MainActivity : AppCompatActivity() {
 
-    private lateinit var activityViewModel: ActivityViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,27 +17,16 @@ open class MainActivity : AppCompatActivity() {
 
 //        navController = findNavController(R.id.nav_host_fragment)
 
-        activityViewModel = ViewModelProviders.of(this).get(ActivityViewModel::class.java)
+        setFragment()
 
-        test()
     }
 
-    protected fun sendRequest(query: String, page: Int) {
-        activityViewModel.sendRequest(query, page)
+    private fun setFragment() {
+        val fragment = ListFragment()
+        val fragmentTransaction = supportFragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.container, fragment).commit()
     }
 
-    private fun test() {
-        activityViewModel.items.observe(this, Observer {
-            when (it.status) {
-                Status.SUCCESS -> {
-                    var res = it.data
-
-                }
-//                Status.LOADING ->
-//                Status.ERROR ->
-            }
-        })
-    }
 
 
 //    Toast.makeText(applicationContext, "SSSS", Toast.LENGTH_SHORT).show()
