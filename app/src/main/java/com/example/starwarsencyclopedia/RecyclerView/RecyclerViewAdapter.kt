@@ -12,12 +12,19 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolde
 
     var dataSource = ListDataSource()
 
-    val itemClicked = MutableLiveData<Response>()
+//    val itemClicked = MutableLiveData<Response>()
 
-    class MyViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
+    class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        private var myItemView = view
+        private var item: Response.Item? = null
 
-        fun updateWith(item: String?) {
-            view.itemName.text = item
+        fun updateWith(item: Response.Item?) {
+            this.item = item
+            if (item?.name != null) {
+                myItemView.itemName.text = item.name
+            } else {
+                myItemView.itemName.text = item?.title
+            }
         }
     }
 
@@ -28,18 +35,14 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolde
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        if (dataSource.data?.results?.get(position)?.name != null) {
-            holder.updateWith(dataSource.data?.results?.get(position)?.name)
-        } else {
-            holder.updateWith(dataSource.data?.results?.get(position)?.title)
-        }
+        holder.updateWith(dataSource.data[position])
     }
 
     override fun getItemCount(): Int {
-        return 0
+        return dataSource.data.size
     }
 
-    fun sendData(newData: Response?) {
+    fun sendData(newData: ArrayList<Response.Item?>?) {
         dataSource.sendData(newData)
         notifyDataSetChanged()
     }

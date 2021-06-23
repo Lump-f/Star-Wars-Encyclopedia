@@ -4,9 +4,9 @@ import com.example.starwarsencyclopedia.Network.Model.Response
 
 class ListDataSource {
 
-    var data: Response? = null
+    var data: ArrayList<Response.Item?> = ArrayList()
 
-    fun sendData(newData:Response?) {
-        data = newData
+    fun sendData(newData: ArrayList<Response.Item?>?) {
+        newData?.let { data.addAll(it) }
     }
 }

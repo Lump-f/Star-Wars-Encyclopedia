@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.*
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -46,13 +45,13 @@ class ListFragment : Fragment() {
         super.onStart()
 
         setDrawer()
-        setRecyclerAdapter()
+        configureRecyclerView()
         test()
 
         drawer_layout.bringToFront() // Без этой строки drawer когда открывается становиться не кликабельным
     }
 
-    private fun setRecyclerAdapter() {
+    private fun configureRecyclerView() {
         LinearLayoutManager(context).orientation = LinearLayoutManager.VERTICAL
 
         list.apply {
@@ -69,7 +68,7 @@ class ListFragment : Fragment() {
         activityViewModel.items.observe(this, Observer {
             when (it.status) {
                 Status.SUCCESS -> {
-                    adapter.sendData(it.data)
+                    adapter.sendData(it.data?.results)
                 }
 //                Status.LOADING ->
 //                Status.ERROR ->
