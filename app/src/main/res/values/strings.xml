@@ -3,6 +3,8 @@
 
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_hint">Filter</string>
+    <string name="favoritebtn">Favorite</string>
 
     <string-array name="drawer_strings">
         <item>Films</item>
@@ -11,6 +13,7 @@
         <item>Species</item>
         <item>Starships</item>
         <item>Vehicles</item>
+        <item>Favorites</item>
     </string-array>
 
 </resources>

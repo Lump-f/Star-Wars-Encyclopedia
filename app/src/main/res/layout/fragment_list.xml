@@ -21,15 +21,17 @@
             android:divider="@android:color/transparent"
             android:dividerHeight="0dp" />
 
-<!--        <FrameLayout-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"/>-->
+        <!--        <FrameLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"/>-->
 
     </androidx.drawerlayout.widget.DrawerLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:background="@color/white_200"
+        android:paddingTop="5dp" />
 
 </FrameLayout>

@@ -10,4 +10,5 @@
     <color name="white_200">#fafafa</color>
 
     <color name="blue">#FF33B5E5</color>
+    <color name="transparent">#00000000</color>
 </resources>
