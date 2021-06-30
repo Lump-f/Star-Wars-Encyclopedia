@@ -18,8 +18,6 @@ open class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        navController = findNavController(R.id.nav_host_fragment)
-
         setListFragment()
 
     }
@@ -38,9 +36,5 @@ open class MainActivity : AppCompatActivity() {
         fragmentTransaction.replace(R.id.container, fragment).commit()
 
     }
-
-
-
-//    Toast.makeText(applicationContext, "SSSS", Toast.LENGTH_SHORT).show()
 
 }
